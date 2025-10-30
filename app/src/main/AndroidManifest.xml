@@ -12,9 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Teste"
         tools:targetApi="31" >
+<<<<<<< HEAD
         <activity android:name=".HomeActivity"/>
         <activity android:name=".MenuActivity"/>
         <activity android:name=".PatoActivity"/>
+=======
+        <activity
+            android:name=".HomeActivity"/>
+>>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
         <activity
             android:name=".MainActivity"
             android:exported="true" >

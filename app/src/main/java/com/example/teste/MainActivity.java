@@ -1,6 +1,9 @@
 package com.example.teste;
 
+<<<<<<< HEAD
 import android.app.Activity;
+=======
+>>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
 import android.content.Intent;
 import android.hardware.biometrics.PromptContentItemPlainText;
 import android.os.Bundle;
@@ -37,11 +40,19 @@ public class MainActivity extends AppCompatActivity {
             String usuario = txtUsuario.getText().toString();
             String senha = txtSenha.getText().toString();
 
+<<<<<<< HEAD
             if(usuario.equals("") && senha.equals("")){
                 //txtUsuario.getScene().getWindow().hide();
                 Intent intent = new Intent(MainActivity.this, MenuActivity.class);
                 startActivity(intent);
                 //finish();
+=======
+            if(usuario.equals("admin") && senha.equals("marina")){
+                //txtUsuario.getScene().getWindow().hide();
+                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                startActivity(intent);
+                finish();
+>>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
                 //setContentView(R.layout.home);
             } else {
                 Toast.makeText(this, "Usuário ou senha incorretos!", Toast.LENGTH_SHORT).show();
