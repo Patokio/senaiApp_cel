@@ -13,15 +13,10 @@
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-=======
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
         app:srcCompat="@drawable/plano_fundo_p" />
 
     <ImageView
@@ -33,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/igaem" />
+        app:srcCompat="@drawable/igaem"/>
 
     <TextView
         android:id="@+id/textView"
@@ -45,7 +40,6 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -59,7 +53,6 @@
         android:text="Tocar"
         android:textColorLink="#F00000"
         android:textSize="16sp"
-=======
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -69,7 +62,6 @@
         android:layout_height="wrap_content"
         android:text="Tocar"
         android:textColorLink="#F00000"
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,15 +74,11 @@
         android:layout_marginBottom="200dp"
         android:text="Tocado"
         android:textColor="@color/black"
-<<<<<<< HEAD
         android:textSize="20sp"
-=======
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/btnTocado" />
 
     <Button
@@ -105,9 +93,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTocar"
-        app:layout_constraintVertical_bias="0.377" />
-=======
-        app:layout_constraintTop_toBottomOf="@+id/btnTocar" />
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
+        app:layout_constraintVertical_bias="0.377"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

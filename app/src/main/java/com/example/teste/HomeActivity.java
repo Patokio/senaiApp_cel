@@ -1,9 +1,8 @@
 package com.example.teste;
 
-<<<<<<< HEAD
+
 import android.content.Intent;
-=======
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
+
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -18,16 +17,12 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
 
-<<<<<<< HEAD
+
         Button btnTocado = findViewById(R.id.btnTocado);
         TextView txtTocar = findViewById(R.id.txtTocar);
         ImageView imgVisto = findViewById(R.id.imgVisto);
         Button btnVoltar = findViewById(R.id.btnVoltar);
-=======
-        Button btnTocar = findViewById(R.id.btnTocar);
-        TextView txtTocar = findViewById(R.id.txtTocar);
-        ImageView imgVisto = findViewById(R.id.imgVisto);
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
+
 
         AtomicInteger tocado = new AtomicInteger();
 
@@ -38,11 +33,8 @@ public class HomeActivity extends AppCompatActivity {
                 R.drawable.redentor_rio
         };
 
-<<<<<<< HEAD
         btnTocado.setOnClickListener(v -> {
-=======
-        btnTocar.setOnClickListener(v -> {
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
+
             int numero = new Random().nextInt(img_muitas.length);
             //txtTocar.setText(frases[numero]);
 
@@ -51,7 +43,6 @@ public class HomeActivity extends AppCompatActivity {
             imgVisto.setImageResource(img_muitas[numero]);
 
         });
-<<<<<<< HEAD
 
         ButoesIguaisActivity.configurarBotaoVoltar(this, btnVoltar);
         /*btnVoltar.setOnClickListener(v ->{
@@ -60,7 +51,5 @@ public class HomeActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         });*/
-=======
->>>>>>> ef87e62174180a97c6cf415999410c4c43d20406
     }
 }
