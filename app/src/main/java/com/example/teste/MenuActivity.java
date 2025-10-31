@@ -15,6 +15,7 @@ public class MenuActivity extends AppCompatActivity {
         Button btnTocar = findViewById(R.id.btnTocar);
         Button btnVoltar = findViewById(R.id.btnVoltar);
         Button btnPato = findViewById(R.id.btnPato);
+        Button btnConversor = findViewById(R.id.btnConversor);
 
         /*public static void configurarBotaoVoltar(Activity activity, Button btnVoltar) {
             btnVoltar.setOnClickListener(v -> {
@@ -31,6 +32,11 @@ public class MenuActivity extends AppCompatActivity {
             Intent intent = new Intent(this, HomeActivity.class);
             startActivity(intent);
             //finish();
+        });
+
+        btnConversor.setOnClickListener(v -> {
+            Intent intent = new Intent(this, ConversorActivity.class);
+            startActivity(intent);
         });
 
         ButoesIguaisActivity.configurarBotaoVoltar(this, btnVoltar);

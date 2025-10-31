@@ -16,7 +16,7 @@
         <activity android:name=".HomeActivity"/>
         <activity android:name=".MenuActivity"/>
         <activity android:name=".PatoActivity"/>
-
+        <activity android:name=".ConversorActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true" >
