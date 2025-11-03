@@ -3,8 +3,10 @@ package com.example.teste;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.app.Activity;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.io.BufferedReader;
 
 public class MenuActivity extends AppCompatActivity {
     @Override
@@ -15,8 +17,9 @@ public class MenuActivity extends AppCompatActivity {
         Button btnTocar = findViewById(R.id.btnTocar);
         Button btnVoltar = findViewById(R.id.btnVoltar);
         Button btnPato = findViewById(R.id.btnPato);
-        Button btnConversor = findViewById(R.id.btnConversor);
-
+        Button btnMoeda = findViewById(R.id.btnMoeda);
+        Button btnTemperatura = findViewById(R.id.btnTemperatura);
+        Button btnCEP = findViewById(R.id.btnCEP);
         /*public static void configurarBotaoVoltar(Activity activity, Button btnVoltar) {
             btnVoltar.setOnClickListener(v -> {
                 activity.finish(); // Fecha a activity atual
@@ -34,8 +37,18 @@ public class MenuActivity extends AppCompatActivity {
             //finish();
         });
 
-        btnConversor.setOnClickListener(v -> {
+        btnMoeda.setOnClickListener(v -> {
             Intent intent = new Intent(this, ConversorActivity.class);
+            startActivity(intent);
+        });
+
+        btnTemperatura.setOnClickListener(v -> {
+            Intent intent = new Intent(this, TemperaturaActivity.class);
+            startActivity(intent);
+        });
+
+        btnCEP.setOnClickListener(v -> {
+            Intent intent = new Intent(this, CEPActivity.class);
             startActivity(intent);
         });
 

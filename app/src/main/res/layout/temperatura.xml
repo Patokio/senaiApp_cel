@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -17,11 +17,11 @@
         app:srcCompat="@drawable/plano_fundo_p" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="500dp"
-        android:text="Menu"
+        android:text="Conversor de Temperatura"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,85 +30,76 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnTocar"
-        android:layout_width="183dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="410dp"
-        android:backgroundTint="#55BD0F"
-        android:text="Tocar"
-        android:textColor="@color/black"
+        android:id="@+id/btnTemp"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#0A7C99"
+        android:text="Converter"
+        android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnPato"
-        android:layout_width="183dp"
-        android:layout_height="44dp"
-        android:layout_marginBottom="310dp"
-        android:backgroundTint="#55BD0F"
-        android:text="Pato"
-        android:textColor="@color/black"
+        android:id="@+id/btnVoltar"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#0A7C99"
+        android:text="Voltar ao Menu"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnMoeda"
-        android:layout_width="183dp"
-        android:layout_height="44dp"
-        android:layout_marginBottom="220dp"
-        android:backgroundTint="#55BD0F"
-        android:text="Moedas"
+    <EditText
+        android:id="@+id/txtTempAtual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
         android:textColor="@color/black"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnTemperatura"
-        android:layout_width="183dp"
-        android:layout_height="44dp"
-        android:layout_marginBottom="130dp"
-        android:backgroundTint="#55BD0F"
+    <Spinner
+        android:id="@+id/spnTemp"
+        android:layout_width="223dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spnTemp2"
+        android:layout_width="223dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtResultTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
         android:text="Temperatura"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
-
-    <Button
-        android:id="@+id/btnCEP"
-        android:layout_width="183dp"
-        android:layout_height="44dp"
-        android:layout_marginBottom="40dp"
-        android:backgroundTint="#55BD0F"
-        android:text="Consultar CEP"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
-
-    <Button
-        android:id="@+id/btnVoltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#D0910A"
-        android:text="Sair"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

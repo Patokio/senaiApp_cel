@@ -32,7 +32,7 @@ public class ConversorActivity extends AppCompatActivity {
             double result = valor / 5.38;
             txtResult.setText(String.format("%.2f ",result));*/
             String moeda = spnTipo.getSelectedItem().toString();
-            double valor = Double.parseDouble(String.valueOf(txtValor.getText()));;
+            double valor = Double.parseDouble(String.valueOf(txtValor.getText()));
             double result = 0;
             if (moeda.equals("Dólar Americano")) {
                 result = valor / 5.38;
