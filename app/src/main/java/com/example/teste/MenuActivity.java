@@ -19,6 +19,7 @@ public class MenuActivity extends AppCompatActivity {
         Button btnPato = findViewById(R.id.btnPato);
         Button btnMoeda = findViewById(R.id.btnMoeda);
         Button btnTemperatura = findViewById(R.id.btnTemperatura);
+        Button btnGato = findViewById(R.id.btnGato);
         Button btnCEP = findViewById(R.id.btnCEP);
         /*public static void configurarBotaoVoltar(Activity activity, Button btnVoltar) {
             btnVoltar.setOnClickListener(v -> {
@@ -48,6 +49,11 @@ public class MenuActivity extends AppCompatActivity {
         });
 
         btnCEP.setOnClickListener(v -> {
+            Intent intent = new Intent(this, CEPActivity.class);
+            startActivity(intent);
+        });
+
+        btnGato.setOnClickListener(v -> {
             Intent intent = new Intent(this, CEPActivity.class);
             startActivity(intent);
         });

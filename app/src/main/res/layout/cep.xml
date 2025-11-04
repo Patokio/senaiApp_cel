@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/plano_fundo_p" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -33,6 +33,7 @@
         android:layout_width="182dp"
         android:layout_height="48dp"
         android:layout_marginTop="300dp"
+        android:backgroundTint="#870C94"
         android:text="Consultar"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,6 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="400dp"
+        android:backgroundTint="#870C94"
         android:text="Voltar ao Menu"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,13 +55,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/edtCEP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="300dp"
         android:ems="10"
+        android:hint="CEP"
         android:inputType="text"
-        android:text="Name"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

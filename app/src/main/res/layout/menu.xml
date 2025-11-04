@@ -100,6 +100,20 @@
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
     <Button
+        android:id="@+id/btnGato"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#55BD0F"
+        android:text="Gato"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <Button
         android:id="@+id/btnVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
