@@ -20,6 +20,7 @@
         <activity android:name=".TemperaturaActivity"/>
         <activity android:name=".CEPActivity"/>
         <activity android:name=".GatoActivity"/>
+        <activity android:name=".CarroActivity"/>
 
         <activity
             android:name=".MainActivity"

@@ -21,6 +21,7 @@ public class MenuActivity extends AppCompatActivity {
         Button btnTemperatura = findViewById(R.id.btnTemperatura);
         Button btnGato = findViewById(R.id.btnGato);
         Button btnCEP = findViewById(R.id.btnCEP);
+        Button btnCarro = findViewById(R.id.btnCarro);
         /*public static void configurarBotaoVoltar(Activity activity, Button btnVoltar) {
             btnVoltar.setOnClickListener(v -> {
                 activity.finish(); // Fecha a activity atual
@@ -55,6 +56,11 @@ public class MenuActivity extends AppCompatActivity {
 
         btnGato.setOnClickListener(v -> {
             Intent intent = new Intent(this, GatoActivity.class);
+            startActivity(intent);
+        });
+
+        btnCarro.setOnClickListener(v -> {
+            Intent intent = new Intent(this, CarroActivity.class);
             startActivity(intent);
         });
 
