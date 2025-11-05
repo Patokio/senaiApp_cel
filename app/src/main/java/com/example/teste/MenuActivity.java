@@ -54,7 +54,7 @@ public class MenuActivity extends AppCompatActivity {
         });
 
         btnGato.setOnClickListener(v -> {
-            Intent intent = new Intent(this, CEPActivity.class);
+            Intent intent = new Intent(this, GatoActivity.class);
             startActivity(intent);
         });
 

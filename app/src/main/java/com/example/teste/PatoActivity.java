@@ -41,7 +41,7 @@ public class PatoActivity extends AppCompatActivity {
                     .into(imgPato);
         });
 
-    /*    btnNovoPato.setOnClickListener(v -> {
+        btnNovoPato.setOnClickListener(v -> {
             new LoadRandomDuck().execute();
         });
     }
@@ -79,7 +79,7 @@ public class PatoActivity extends AppCompatActivity {
             } else {
                 imgPato.setImageResource(R.drawable.erro);
             }
-        }*/
+        }
 
         /*btnVoltar.setOnClickListener(v ->{
             Intent intent = new Intent(this, MenuActivity.class);
