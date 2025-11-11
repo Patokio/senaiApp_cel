@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
         Button btnEntrar = findViewById(R.id.btnEntrar);
 
         btnEntrar.setOnClickListener(v -> {
-            String usuario = txtUsuario.getText().toString();
-            String senha = txtSenha.getText().toString();
+            String usuario = txtUsuario.getText().toString().trim();
+            String senha = txtSenha.getText().toString().trim();
 
 
             if(usuario.equals("") && senha.equals("")) {
