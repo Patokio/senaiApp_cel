@@ -24,6 +24,7 @@ public class MenuActivity extends AppCompatActivity {
         Button btnCarro = findViewById(R.id.btnCarro);
         Button btnMercado = findViewById(R.id.btnMercado);
         Button btnCamara = findViewById(R.id.btnCamara);
+        Button btnFuncionario = findViewById(R.id.btnFuncionario);
         /*public static void configurarBotaoVoltar(Activity activity, Button btnVoltar) {
             btnVoltar.setOnClickListener(v -> {
                 activity.finish(); // Fecha a activity atual
@@ -73,6 +74,11 @@ public class MenuActivity extends AppCompatActivity {
 
         btnCamara.setOnClickListener(v -> {
             Intent intent = new Intent(this, CameraActivity.class);
+            startActivity(intent);
+        });
+
+        btnFuncionario.setOnClickListener(v -> {
+            Intent intent = new Intent(this, FuncionarioActivity.class);
             startActivity(intent);
         });
 
